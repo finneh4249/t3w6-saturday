@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #282c34;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: #61dafb;
+  }
+  
+  nav a:hover {
+    background-color: #282c34;
+    color: #61dafb;
+  }
